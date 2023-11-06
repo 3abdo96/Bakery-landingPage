@@ -1,0 +1,425 @@
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+}
+
+
+/* Start Header Section */
+.header{    
+    height: 100vh;
+    background-image: url("assets/drew-coffman-1872.jpg");
+    background-size: cover; 
+    background-position: center center;
+}
+.header .header-logo{
+    float: left;
+    width: 20%;
+    padding-top: 20px;
+}
+.header .header-logo img{
+    width: 75%;
+}
+.header .header-navbar{
+    width: 40%;
+    float: right;
+}
+.header .header-navbar ul{
+    width: 100%;
+}
+.header .header-navbar ul li{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 0;
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+.header .header-navbar ul .active {
+    border-top: 3px solid #ae9768;
+}
+.header .header-navbar ul .active a{
+    color:#dfdbd1
+}
+.header .header-navbar ul li a{
+    color: #fff;
+}
+.home-content{
+    text-align: center;
+    width: 57%;
+    margin: 110px auto;
+    color: #fff;
+}
+.home-content span{
+    font-size: 22px;
+}
+.home-content h1{
+    font-size: 76px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+}
+.home-content p{
+    font-size: 24px;
+}
+.buttons{
+    margin: 30px 0;
+}
+.buttons button{
+    padding: 15px 28px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 6px;
+}
+.buttons .more{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+.buttons .contact {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+/* End Header Section */
+
+/* Start Who Are Section */
+.who-are .container{
+    padding: 90px 0;
+}
+.who-are .image{
+    width: 45%;
+    float: left;
+    padding: 0 30px;
+}
+.image img{
+    width: 100%;
+}
+.who-are .section-content{
+    width: 45%;
+    float: left;
+    padding: 30px 0 30px 56px;
+}
+.who-are .section-content h2{
+    font-size: 32px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+.who-are .section-content p{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    color: #686868;
+}
+.who-are .section-content img{
+    width: 100%;  
+}
+.who-are .section-content ul{
+    margin-top: 15px;
+}
+.who-are .section-content li{
+padding: 15px 0 15px 0px;
+}
+
+.who-are .section-content .item-icon{
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    width: 8%;
+    height: 43px;
+    float: left;
+}
+.who-are .section-content .item-content .text{
+    width: 88%;
+    float: left;
+    padding: 6px 10px 0;
+    color: #686868;
+    font-size: 17px;
+}
+
+/* End Who Are Section */
+
+/* Start Our Location Section */
+.our-location{
+    padding: 90px 0;
+    background-color: #f8f8f8;
+}
+
+.our-location .image {
+    width: 42%;
+    float: left;
+    padding: 0 50px;
+}
+.our-location .section-content {
+    width: 45%;
+    float: left;
+    padding: 65px 0 65px 56px;
+}
+
+.our-location .section-content h2 {
+    font-size: 32px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+.our-location .section-content .first-text{
+    margin-bottom: 20px;
+}
+.our-location .section-content p {
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    color: #686868;
+}
+/* End Our Location Section */
+
+/* Start Our Baking Section */
+.our-baking {
+    padding: 90px 0;
+}
+.our-baking .section-content{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our-baking .section-content h2{
+    font-size: 30px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+}
+.our-baking .section-content p{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 17px;
+    color: #686868;
+    
+}
+
+.our-baking .bakings .baking{
+    float: left;
+}
+.our-baking .bakings .baking img{
+    width: 100%;
+}
+.our-baking .bakings .baking{
+    width: 30%;
+    text-align: center;
+    padding: 0 20px 0 15px;
+}
+.our-baking .bakings .baking h4{
+    font-size: 22px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.our-baking .bakings .baking p{
+    font-size: 17px;
+    font-family: 'Alegreya', sans-serif;
+    line-height: 30px;
+    color: #686868;
+    margin-bottom: 15px;
+}
+/* End Our Baking Section */
+
+/* Start Contact Info Section */
+
+.contact-info{
+    padding: 90px 0;
+     background-color: #f8f8f8;
+
+}
+.contact-info .image {
+    width: 45%;
+    float: left;
+    padding: 120px 30px;
+    border: 1px solid black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.contact-info .section-content {
+    width: 45%;
+    float: left;
+    padding: 30px 0 30px 56px;
+}
+
+.contact-info .section-content h2 {
+    font-size: 32px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+
+.contact-info .section-content p {
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    color: #686868;
+}
+
+.contact-info .section-content .title{
+    margin: 30px 0 15px 0;
+}
+
+.contact-info .section-content img {
+    width: 100%;
+}
+
+.contact-info .section-content ul {
+    margin-top: 15px;
+}
+
+.contact-info .section-content li {
+    padding: 15px 0 15px 0px;
+}
+
+.contact-info .section-content .item-icon {
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    background-color: #8e7754;
+    width: 7%;
+    height: 39px;
+    float: left;
+}
+
+.contact-info .section-content .item-content .text {
+    width: 88%;
+    float: left;
+    padding: 11px 10px 0;
+    color: #686868;
+    font-size: 17px;
+}
+/* End Contact Info Section */
+
+/* Start Main Footer Section */
+.main-footer{
+padding: 90px 0;
+background-color: #403d38;
+}
+.contact-details{
+background: url("assets/contact-details-map.png") no-repeat center 70%;
+opacity: 0.6;
+}
+.main-footer .special-title{
+    float: left;
+    width: 22%;
+}
+.main-footer .special-title h4{
+    font-size: 18px;
+    font-family: 'Alegreya', sans-serif;
+    margin: 0 0 25px;
+    color: #fff;
+    font-weight: 300;
+    padding-left:5px ;
+}
+.main-footer .about-us h4{
+    padding: 0;
+}
+.main-footer .special-title p{
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0 0 20px;
+    color: #969696;
+    line-height: 30px;
+}
+.main-footer .special-title img{
+    width: 100%;
+}
+.main-footer .special-title{
+    padding: 0 15px;
+}
+.main-footer .special-title .item-content{
+    color: #969696;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.main-footer .special-title .item-icon{
+    width: 7%;
+    /* height: 39px; */
+    float: left;
+    padding: 5px 0 0 0;
+}
+.main-footer .special-title .item-content .text{
+    width: 88%;
+    /* height: 39px; */
+    float: left;
+    
+}
+
+.main-footer .special-title li{
+    padding: 0 0 10px;
+    margin: 0 0 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    line-height: 30px;
+}
+
+.main-footer .contact-details .item-icon{
+    width: 12% ;
+    padding: 0px 0 0 0;
+}
+.main-footer .contact-details .item-content .text {
+    width: 85%;
+    /* height: 39px; */
+    float: left;
+
+}
+/* End Main Footer Section */
+
+/* Start Bottom Footer Section */
+
+.bottom-footer{
+    padding: 90px 0;
+        background-color: #353330;
+        text-align: center;
+}
+.bottom-footer .footer-image{
+    margin: 10px 0 25px 0;
+}
+.bottom-footer p{
+    font-size: 15px;
+    color: #777;
+    margin: 5px 0 0;
+}
+ .social-links{
+    width: 16%;
+    margin: 15px auto 0;
+    padding-top: 8px;
+}
+ .bottom-footer li{
+    border: 1px solid #484540;
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    height: 36px;
+    background-color: #484540;
+    margin: 0 8px 0 0;
+} 
+.bottom-footer .image img{
+    width: 100%;
+}
+
+/* End Bottom Footer Section */
